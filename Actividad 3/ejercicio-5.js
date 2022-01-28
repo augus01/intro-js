@@ -8,10 +8,10 @@ var num1 = Number(eleccionUser1)
 var num2 = Number(eleccionUser2)
 var num3 = Number(eleccionUser3)
 
-if (num1 == num2 || num1 == num3 ||num2 == num3 ){
-    alert("El número " + num1 + " es mayor que el resto")
+if (num1 == num2 || num1 == num3 || num2 == num3 ){
+    alert("Elegiste dos números iguales" )
 }else if (num1 > num2 && num1 > num3 ){
-    alert("Elegiste dos números iguales")
+    alert("El número " + num1 + " es mayor que el resto")
 }else if (num2 > num1 && num2 > num3){
     alert("El número " + num2 + " es mayor que el resto")
 }else if (num3 > num1 && num3 > num2){
