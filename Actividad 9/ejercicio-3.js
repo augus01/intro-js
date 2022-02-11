@@ -12,8 +12,4 @@ var student = {
     rollno: 12
 };
 
-if (student.name != null || student.name != undefined){
-    console.log(`El nombre de ${student.name} si existe`)
-}else{
-    console.log(`No se encontro el nombre`)
-}
+console.log(student.hasOwnProperty("name"))
